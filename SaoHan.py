@@ -81,7 +81,7 @@ with tab1:
                 Sao = TinhSao(namSinh=int(year),gioiTinh=str(gender))
                 txt = st.text_area("", "Sao " + Sao +"\n" +"\n"+ Data[Sao]
 , height=300)
-        components.html("""<a href="https://bienthuy.com/tam-linh/y-nghia-cac-sao-cung-sao-va-giai-han/">Nguồn: bienthuy.com</a>""",height=5800,)
+            components.html("""<a href="https://bienthuy.com/tam-linh/y-nghia-cac-sao-cung-sao-va-giai-han/">Nguồn: bienthuy.com</a>""",height=5800,)
 with tab2:
     st.header("Nhập danh sách")
     form = st.form("my_form",clear_on_submit=True)
