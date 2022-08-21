@@ -1,0 +1,46 @@
+/* hack CSS */
+.css-4z1n4l.ehezqtx5 {
+    display: none;
+}
+ul.css-1uh038d.e1pxm3bq0 {
+    display: none;
+}
+/* hack CSS */
+
+body {
+    color: #fff;
+    background-color: #4F8BF9;
+}
+
+.stButton>button {
+    background-color:#0ecc6d;
+    color: #fff;
+}
+.stButton>button:hover {
+    background-color: #0b944f;
+    color: #fff;
+    border-color:#0b944f ;
+}
+.stButton>button:focus {
+    background-color: #0b944f;
+    border-color: #0b944f;
+    color:  #fff;
+}
+.css-1cpxqw2:focus:not(:active) {
+    border-color: #0b944f;
+    color: #fff;
+}
+.css-1cpxqw2:focus {
+    box-shadow:none;
+}
+
+button.css-1cpxqw2.edgvbvh5 {
+    color: inherit;
+    background-color: #fff;
+}
+
+button.css-1cpxqw2.edgvbvh5:hover {
+    background-color: #0ecc6d;
+    color: #fff;
+    border-color:#0ecc6d ;
+}
