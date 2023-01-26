@@ -34,7 +34,7 @@ date = datetime.datetime.now()
 namHienTai = date.year
 # Tính ra sao hạn
 def TinhSao(namSinh,gioiTinh):
-    tuoi = namHienTai - namSinh
+    tuoi = namHienTai - namSinh + 1
     sao = tuoi%9
     if "a" in gioiTinh:
         return str(Nam[sao])
